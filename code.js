@@ -44,9 +44,9 @@ function createObserverFunctionTotallyNotCopiedFromMDN() {
 
 
 function doThings(){
-  debugShowAll();
-  // attachButton1ClickEventToShowTheAmazingText();
-  // createObserverFunctionTotallyNotCopiedFromMDN();
+  // debugShowAll();
+  attachButton1ClickEventToShowTheAmazingText();
+  createObserverFunctionTotallyNotCopiedFromMDN();
   attachDataAddingEventToButton();
   attachInputEventForAnswerInput();
 }
