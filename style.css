@@ -1,0 +1,123 @@
+body {
+  background-color: crimson;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+hr {
+  border-color: whitesmoke;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  background-color: crimson;
+  border: 1px solid whitesmoke;
+  padding: 0.4rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  color: whitesmoke;
+}
+
+
+button {
+  background-color: white;
+  cursor: pointer;
+  font-variant-caps: all-small-caps;
+  border: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  border-radius: 1rem;
+}
+
+button:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.dark {
+  color: whitesmoke;
+}
+
+.hero {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: whitesmoke;
+}
+
+section {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) { 
+  section {
+    width: 90%;
+  }
+ }
+
+.w-full {
+  width: 100%;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  border: 2px solid whitesmoke;
+  padding: 1rem;
+}
+
+th {
+  padding: 1rem;
+  color: black;
+  background-color: whitesmoke;
+}
+
+tr td:first-child {
+  border-left-width: 4px;
+}
+
+tr td:last-child {
+  border-right-width: 4px;
+}
+
+tr:last-child td {
+  border-bottom-width: 4px;
+}
+
+table tr:first-child th:nth-child(1) {
+  border-top-left-radius: 1rem;
+}
+table tr:first-child th:last-child {
+  border-top-right-radius: 1rem;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 1rem;
+}
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 1rem;
+}
+
+img.float-left {
+  float: left;
+  margin-right: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.size-200 {
+  width: 200px;
+}
